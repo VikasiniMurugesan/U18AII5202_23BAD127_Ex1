@@ -1,3 +1,4 @@
+print("Vikasini M 23BAD127")
 library(ggplot2)
 library(dplyr)
 library(tidyr)
@@ -43,5 +44,6 @@ ggplot(grade_dist, aes(x = "", y = Count, fill = Final_Grade)) +
   labs(title = "Grade Distribution of Students",
        fill = "Grades") +
   theme_void()
+
 
 
